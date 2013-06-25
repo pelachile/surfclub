@@ -1,0 +1,76 @@
+#music-page {
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.8);
+	article {
+		margin-bottom: 0.5em;
+	}
+	h2 {
+		color:#06a582;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		
+		background: url('../images/border-long.png') no-repeat left bottom;
+		padding-bottom: 0.2em;
+		
+	}
+	
+}
+.music-item {
+	img {
+		margin-bottom: 1em;
+	}
+
+	header {
+		border-bottom:dotted 2px white;
+		border-top:dotted 2px white;
+		margin-bottom: 0.5em;
+		background: #272221;
+		padding:0 2em;
+
+		h4 {
+			color:#f89406;
+			font-size: 1.4em;
+			@media screen and (max-width: 320px){
+				text-align: center;	
+			}
+		}
+		.date {
+			float: right;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			color:#0d7a99;
+			@media screen and (max-width: 320px) {
+	    	display: block;
+  			float: none;
+  			margin-top: 0.2em;
+  			font-size: 1em;
+  		}
+		}
+	}
+
+	section {
+	
+		.cover {
+			float: right;
+			color:#06a582;
+			font-size: 1.2em;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			@media screen and (max-width: 320px) {
+				color:#0d7a99;
+		   	display: block;
+	  		float: left;
+	  		margin-top: 0.2em;
+	  		font-size: 1em;
+	  		padding-bottom:0.4em;
+			}
+		}
+		.doors {
+			float: left;
+			color:#06a582;
+			font-size: 1.2em;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}		
+		p {
+			font-size: 1.2em;
+			line-height: 18px;
+			color: #cac6c7;
+		}
+	}
+}

@@ -1,0 +1,61 @@
+/*!
+Theme Name: WordPress Starter Theme
+Theme URI: http://www.THEME.com
+Description: WordPress Starter Theme for use as a starting template for building custom themes.
+Author: Matt Banks
+Author URI: http://www.kernelcreativemedia.com
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0
+*/
+
+// Compass imports
+@import "compass";
+$iconSpritePath: "../assets/images/glyphicons-halflings.png";
+$iconWhiteSpritePath: "../assets/images/glyphicons-halflings-white.png";
+$orange: #f89406;
+$light-grey: #cac6c7;
+
+// Reset, Variables, Mixins, Etc
+// DO NOT EDIT ORDER OF FILES
+
+@import "partials/normalize";
+
+// Globals
+@import "compass/utilities";
+@import "partials/slider";
+@import "bootstrap-sass/sass/bootstrap";
+@import "bootstrap-sass/sass/responsive";
+
+body {
+  background: url('assets/images/bg.jpg') repeat;
+  padding-top: 6em;
+  @media screen and (max-width: 1024px){
+    padding-top:7em;
+  }
+}
+
+#bg {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: -5;
+}
+.bgwidth {
+  width: 100%;
+}
+.bgheight {
+  height: 75%;
+}
+// The grid
+
+// Page and Site Styles
+@import "partials/navbar";
+@import "partials/typography";
+@import "partials/offerring";
+@import "partials/middle-content";
+@import "partials/bottom-content";
+@import "partials/menu";
+@import "partials/music";
+@import "partials/beer";
+@import "partials/forms";

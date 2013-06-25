@@ -1,0 +1,73 @@
+.bottom-content {
+	margin-top: 1.5em;
+	h3 {
+		text-align: center;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 2em;
+		font-weight: 200;
+		background: url(assets/images/border.png) repeat-x bottom right;
+		@media screen and (max-width: 768px){
+		}
+		@media screen and (max-width: 1024px){
+			font-size: 1.7em;
+		}
+	}
+	ul {
+		list-style: none;
+	}
+	img {
+		float:left;
+		margin-right:0.5em;
+	}
+	p {
+    font-size: 1.1em;
+		line-height: 14px;
+
+	}	
+  .social {
+    a {
+      display:block;
+    }
+    .circle {
+      display:block;
+      border-radius: 76px;
+      text-align: center;
+      text-decoration: none;
+      color: #cac6c7;
+      font-size: 1.8em;
+      height:64px;
+      width:64px;
+      font-size:2.5em;
+      box-sizing:border-box;
+   }
+   .facebook {
+     background: #3C5A98;
+     padding-top:.7em;
+     float:left;
+   }
+   .twitter {
+     background:#00ACED;
+     float:left;
+     padding-top:.7em;
+   }
+   .fbody{
+       padding-left:.2em;
+       padding-top:1em;
+       font-size:1.5em;
+       float:left;
+       color:#cac6c7;
+   }
+
+  }
+	.specials-widget {
+		text-align: center;
+		ul {
+			margin: 0 auto;
+		}
+		li {
+			margin-bottom: 0.9em;
+			background: rgba(39, 34, 33, 0.5);
+			padding: 0.3em;
+		}
+	}
+}

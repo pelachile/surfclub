@@ -1,0 +1,59 @@
+.middle-content {
+  .span12 {
+    text-align: center;
+     background: url(assets/images/border-long.png) no-repeat bottom center;
+
+    h2 {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-weight: 200;
+      font-style: italic;
+      padding: 0.2em;
+     
+    }
+  }	
+
+  .show-info {
+    text-align: center;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.8);
+    background: rgba(39, 34, 33, 0.5);
+    padding-top:0.5em;
+    margin-bottom: 0.5em;
+    header {
+      h3 {
+        color:$orange;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1.7em;
+        font-weight: 300;
+        height: 50px;
+        line-height: 1em;
+
+        @media screen and (max-width: 768px) {
+          font-size: 1.5em !important;
+        }
+
+        @media screen and (max-width: 1024px) {
+          font-size: 1.7em;
+          line-height: 1em;
+          padding: 0.5em;
+          margin-bottom: 0.5em;
+          height: 30px;
+        }
+      }
+
+      .date {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color:#0d7a99;
+        font-size: 1.4em;
+        padding:0;
+        margin-top: 1em;
+      }
+    } 
+    .image {
+      height:125px;
+    }
+    footer {
+      font-size: 1.4em;
+      padding-bottom: 0.3em;
+    }
+  }
+}

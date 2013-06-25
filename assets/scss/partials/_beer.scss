@@ -1,0 +1,22 @@
+#beer-page {
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.8);
+  h2 {
+    color:#06a582;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: url('../images/border-long.png') no-repeat left bottom;
+    padding-bottom: 0.2em;
+  }
+  .span4 {
+    background: rgba(39, 34, 33, 0.5);
+    box-sizing: border-box;
+    padding:1em;
+    margin-bottom: 1em;
+    ul {
+      list-style-type: none;
+    }
+    h3 {
+      margin-top: 0;
+      color: #0d7a99;
+    }
+  }
+ }

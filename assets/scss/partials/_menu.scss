@@ -1,0 +1,52 @@
+#menu-page {
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.8);
+	h2 {
+		color:#06a582;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		
+		background: url('../images/border-long.png') no-repeat left bottom;
+		padding-bottom: 0.2em;
+		
+	}
+	
+}
+.menu-item {
+
+	h4 {
+		color:#f89406;
+		border-bottom:dotted 2px white;
+		border-top:dotted 2px white;
+		padding:0.2em 0.2em;
+		background:#272221;
+		
+	}
+	.price {
+		float: right;
+		color:#06a582;
+		font-size: 1.2em;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	}	
+	p {
+		font-size: 1.2em;
+		line-height: 18px;
+		color: #cac6c7;
+		padding: 0.1em 0.5em;
+	}
+}
+.sidebar {
+  h2 {
+    color:#cac6c7 !important;
+    font-size:1.8em;
+  }
+  .nav-list {
+    a{
+      font-size:1.5em;
+      color:#06a582;
+      &:hover {
+        color:#f89406;
+      }
+    }
+  }
+}
+
