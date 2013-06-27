@@ -14,8 +14,10 @@ $('#gallery-1').royalSlider({
     keyboardNavEnabled: true,
     globalCaptionInside: false,
     allowCSS3:true,
+    transitionType: 'fade',
     autoPlay: {
-        enabled:true
+        enabled:true,
+        delay: 5000
     }
 
 });
