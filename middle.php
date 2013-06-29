@@ -2,7 +2,24 @@
     <div class="span12">
       <h2>Upcoming Shows</h2>
     </div>
-<?php $query = new WP_Query(array('post_type'=>'shows','posts_per_page'=> '3', 'orderby'=>'date', 'order'=> 'ASC'));
+<?php
+ $today = date('Ymd');
+ $query = new WP_Query(array(
+  'post_type'=>'shows',
+  'posts_per_page'=> '3',
+  'meta_key' => 'date',
+  'orderby'=>'meta_value',
+  'order'=> 'ASC',
+  'meta_query' => array(
+    array (
+      'key' => 'date',
+      'meta-value' => $value,
+      'value' => $today,
+      'compare' => '>='
+      )
+    )
+  )
+);
 while($query->have_posts()):
   $query->the_post(); ?>
     <article class="span4 show-info">
